@@ -7,7 +7,7 @@ Student Management UI.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [API Documentation](#API Documentation)
+- [API Documentation](#api-documentation)
 
 ## Installation
 
