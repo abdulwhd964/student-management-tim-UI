@@ -11,7 +11,7 @@ const EditStudent = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { id } = useParams();
   const navigate = useNavigate();
-  const getStudentApi = "http://localhost:8080/api/students";
+  const getStudentApi = "https://student-management-system-tim.onrender.com/api/students";
 
   useEffect(() => {
     getUser();
