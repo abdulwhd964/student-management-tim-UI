@@ -6,7 +6,7 @@ import './Student.css';
 import Header from '../Common/Header';
 const CreateStudent = () => {
     const navigate = useNavigate();
-    const createStudentApi = "http://localhost:8080/api/students"
+    const createStudentApi = "https://student-management-system-tim.onrender.com/api/students"
     const [error, setError] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
     const [user, setUser] = useState({
