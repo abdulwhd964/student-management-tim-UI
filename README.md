@@ -8,6 +8,7 @@ Student Management UI.
 - [Usage](#usage)
 - [Features](#features)
 - [API Documentation](#api-documentation)
+- [Deployment With Render](#deployment-with-render)
 
 ## Installation
 
@@ -24,7 +25,7 @@ Student Management UI.
 
 ## Features
 
-- Login Page
+- Login Page (Default username(abdul) and password(abdul))
 - List of student
 - Add new student
 - Delete student
@@ -34,3 +35,11 @@ Student Management UI.
 ## API Documentation
 
 For detailed documentation on the backend API, please refer to the [Student Management Backend ReadMe](https://github.com/abdulwhd964/Student-Management-System-Tim/blob/main/README.md) file.
+
+## Deployment With Render
+
+This Application is deployed in Render (Free Cloud Deployment Service) and connected with Backend API
+
+URL: https://student-management-tim-ui.onrender.com (Note: Might be down if there is no inactivity)
+username: abdul
+password: abdul
