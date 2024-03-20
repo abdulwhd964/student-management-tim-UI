@@ -6,7 +6,7 @@ import { format } from 'date-fns';
 import Header from "../Common/Header";
 
 const ShowStudent = () => {
-  const showStudentApi = "https://student-management-system-tim.onrender.com/api/students";
+  const showStudentApi = API_URL+"/students";
 
   const [user, setUser] = useState([]);
   const [isLoading, setIsLoading] = useState(false);

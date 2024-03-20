@@ -5,7 +5,7 @@ import "./Student.css";
 const EditStudent = () => {
   const [user, setUser] = useState([]);
   const { id } = useParams();
-  const getUserApi = "https://student-management-system-tim.onrender.com/api/";
+  const getUserApi = "API_URL+";
 
   useEffect(() => {
     getStudents();
