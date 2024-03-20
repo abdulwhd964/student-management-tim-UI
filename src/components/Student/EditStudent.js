@@ -5,6 +5,7 @@ import Loader from "../Common/Loader";
 import "./Student.css";
 import { format } from "date-fns";
 import Header from "../Common/Header";
+import API_URL from "../Api";
 const EditStudent = () => {
   const [user, setUser] = useState([]);
   const [error, setError] = useState(null);

@@ -4,6 +4,7 @@ import Loader from '../Common/Loader';
 import axios from "axios";
 import './Student.css';
 import Header from '../Common/Header';
+import API_URL from '../Api';
 const CreateStudent = () => {
     const navigate = useNavigate();
     const createStudentApi = API_URL+"/students";

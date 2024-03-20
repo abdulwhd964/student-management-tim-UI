@@ -2,10 +2,11 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./Student.css";
+import API_URL from "../Api";
 const EditStudent = () => {
   const [user, setUser] = useState([]);
   const { id } = useParams();
-  const getUserApi = "API_URL+";
+  const getUserApi = API_URL;
 
   useEffect(() => {
     getStudents();
