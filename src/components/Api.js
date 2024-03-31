@@ -1,3 +1,3 @@
-const Api = 'https://student-management-system-tim.onrender.com/api';
+const Api = 'http://backend.api-student-management-tim.net/api';
 
 export default Api;
