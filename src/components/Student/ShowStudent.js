@@ -4,9 +4,10 @@ import { Link, useNavigate } from "react-router-dom";
 import Loader from "../Common/Loader";
 import { format } from 'date-fns';
 import Header from "../Common/Header";
+import Api from "../Api";
 
 const ShowStudent = () => {
-  const showStudentApi = "http://localhost:8080/api/students";
+  const showStudentApi = Api+"/students";
 
   const [user, setUser] = useState([]);
   const [isLoading, setIsLoading] = useState(false);

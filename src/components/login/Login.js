@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate} from 'react-router-dom';
+import Api from '../Api';
 
-const API_URL = 'http://localhost:8080/api/login'; // Update with your backend API URL
+// const API_URL = 'https://student-management-system-tim.onrender.com/api/login'; // Update with your backend API URL
 const Login = () => {
   const [error, setError] = useState(null);
   const navigate = useNavigate();
@@ -24,7 +25,7 @@ const Login = () => {
       "password":credentials.password
     }
     try {
-        const response = await fetch(API_URL, {
+        const response = await fetch(Api+"/login", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

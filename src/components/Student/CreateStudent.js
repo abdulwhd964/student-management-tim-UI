@@ -4,9 +4,10 @@ import Loader from '../Common/Loader';
 import axios from "axios";
 import './Student.css';
 import Header from '../Common/Header';
+import Api from '../Api';
 const CreateStudent = () => {
     const navigate = useNavigate();
-    const createStudentApi = "http://localhost:8080/api/students"
+    const createStudentApi = Api+"/students";
     const [error, setError] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
     const [user, setUser] = useState({
